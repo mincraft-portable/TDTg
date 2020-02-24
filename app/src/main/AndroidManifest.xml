@@ -16,6 +16,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".activity_pandect">
+        </activity>
+        <activity android:name=".activity_eventpandect">
+        </activity>
+        <activity android:name=".activity_eventlist">
+        </activity>
+        <activity android:name=".activity_additems">
+        </activity>
+        <activity android:name="activity_addevent">
+        </activity>
     </application>
 
 </manifest>

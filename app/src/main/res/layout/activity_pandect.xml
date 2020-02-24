@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/index_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTintMode="multiply"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="259dp"
+        android:layout_weight="7"
+        android:background="#03C0A9" />
+
+    <Button
+        android:id="@+id/button_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_weight="1"
+        android:backgroundTintMode="screen"
+        android:fontFamily="sans-serif"
+        android:onClick="onZquestion"
+        android:paddingTop="-80dp"
+        android:paddingBottom="-80dp"
+        android:text="        开启事件        "
+        android:textAllCaps="false"
+        android:textColor="#070701"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/button_all_event"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_weight="1"
+        android:backgroundTintMode="screen"
+        android:fontFamily="sans-serif"
+        android:onClick="onCquestion"
+        android:paddingTop="-80dp"
+        android:paddingBottom="-80dp"
+        android:text="        事件总览        "
+        android:textSize="24sp" />
+
+
+    <Space
+        android:layout_width="376dp"
+        android:layout_height="141dp"
+        android:layout_weight="7"
+        android:backgroundTint="#00FCF9F9" />
+</LinearLayout>
